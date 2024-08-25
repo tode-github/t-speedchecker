@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: transparent;
+}
+
+#speedUI {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(33, 45, 59, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    gap: 15px; 
+}
+
+.speed-info {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    gap: 15px;
+}
+
+.speed-info p {
+    margin: 0; 
+    font-size: 16px;
+}
+
+#licensePlateBox {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 2px; 
+    font-size: 16px;
+}
